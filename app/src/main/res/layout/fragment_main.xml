@@ -29,6 +29,7 @@
                 android:layout_height="match_parent"
                 android:adjustViewBounds="true"
                 android:scaleType="centerCrop"
+                android:contentDescription="@{viewModel.picture.title}"
                 app:bindPictureOfDay="@{viewModel.picture.url}"
                 app:srcCompat="@color/cardview_shadow_end_color" />
 
